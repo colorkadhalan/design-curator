@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Design Curator</title>
+    <title>My Design Inspiration | Daily Curated</title>
     <style>
         * {
             margin: 0;
@@ -12,29 +12,35 @@
         }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             background: #0a0a0a;
-            color: #ffffff;
+            color: #fff;
             line-height: 1.6;
         }
         
-        .header {
+        header {
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-            padding: 3rem 2rem;
+            padding: 4rem 2rem;
             text-align: center;
             border-bottom: 1px solid #333;
         }
         
-        .header h1 {
-            font-size: 3rem;
+        header h1 {
+            font-size: 3.5rem;
             font-weight: 300;
-            letter-spacing: -0.02em;
+            letter-spacing: -0.03em;
             margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
         
-        .header p {
+        header p {
             color: #888;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
         }
         
         .last-updated {
@@ -43,303 +49,279 @@
             margin-top: 1rem;
         }
         
-        .filters {
-            background: #111;
-            padding: 1.5rem 2rem;
-            border-bottom: 1px solid #222;
-            display: flex;
-            gap: 1rem;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        
-        .filter-btn {
-            background: transparent;
-            border: 1px solid #444;
-            color: #fff;
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-size: 0.9rem;
-        }
-        
-        .filter-btn:hover,
-        .filter-btn.active {
-            background: #fff;
-            color: #000;
-        }
-        
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-            gap: 2rem;
+        .feed {
+            max-width: 800px;
+            margin: 0 auto;
             padding: 2rem;
         }
         
-        .inspiration-card {
+        .post {
             background: #1a1a1a;
-            border-radius: 12px;
+            border-radius: 16px;
             overflow: hidden;
+            margin-bottom: 3rem;
+            border: 1px solid #2a2a2a;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border: 1px solid #222;
         }
         
-        .inspiration-card:hover {
+        .post:hover {
             transform: translateY(-5px);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
         }
         
-        .card-image {
+        .post-image {
             width: 100%;
-            height: 250px;
-            object-fit: cover;
             display: block;
+            background: #2a2a2a;
         }
         
-        .card-content {
+        .post-content {
             padding: 1.5rem;
         }
         
-        .card-tags {
+        .post-tags {
             display: flex;
             gap: 0.5rem;
-            margin-bottom: 0.75rem;
+            margin-bottom: 1rem;
             flex-wrap: wrap;
         }
         
         .tag {
-            background: #333;
+            background: #2d2d2d;
             color: #aaa;
-            padding: 0.25rem 0.75rem;
-            border-radius: 12px;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
             font-size: 0.75rem;
             text-transform: uppercase;
             letter-spacing: 0.05em;
         }
         
-        .tag.aesthetic { background: #2d4a3e; color: #7dd3c0; }
-        .tag.medium { background: #3d2d4a; color: #d37dd3; }
-        .tag.mood { background: #4a3d2d; color: #d3a77d; }
+        .tag.type {
+            background: #2d4a3e;
+            color: #7dd3c0;
+        }
         
-        .card-title {
-            font-size: 1.1rem;
+        .tag.source {
+            background: #3d2d4a;
+            color: #d37dd3;
+        }
+        
+        .post-title {
+            font-size: 1.4rem;
             font-weight: 500;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.75rem;
             color: #fff;
         }
         
-        .card-source {
-            color: #666;
-            font-size: 0.85rem;
-        }
-        
-        .card-source a {
+        .post-source {
             color: #888;
-            text-decoration: none;
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
         }
         
-        .card-source a:hover {
-            color: #fff;
+        .post-source a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .post-source a:hover {
+            text-decoration: underline;
         }
         
         .why-curated {
             background: #111;
-            padding: 0.75rem 1rem;
-            border-top: 1px solid #222;
-            font-size: 0.8rem;
+            padding: 1rem 1.5rem;
+            border-top: 1px solid #2a2a2a;
             color: #666;
+            font-size: 0.9rem;
             font-style: italic;
         }
         
-        .preferences-panel {
-            background: #111;
-            padding: 2rem;
-            border-bottom: 1px solid #222;
-        }
-        
-        .preferences-panel h3 {
-            margin-bottom: 1rem;
-            color: #fff;
-        }
-        
-        .pref-section {
-            margin-bottom: 1.5rem;
-        }
-        
-        .pref-section h4 {
-            color: #888;
-            font-size: 0.9rem;
-            margin-bottom: 0.5rem;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-        }
-        
-        .pref-items {
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-        }
-        
-        .pref-item {
-            background: #222;
-            color: #aaa;
-            padding: 0.4rem 0.8rem;
-            border-radius: 4px;
-            font-size: 0.85rem;
-        }
-        
-        .footer {
-            background: #0a0a0a;
-            padding: 2rem;
+        footer {
             text-align: center;
-            border-top: 1px solid #222;
+            padding: 3rem 2rem;
+            border-top: 1px solid #2a2a2a;
             color: #666;
-            font-size: 0.9rem;
+        }
+        
+        footer p {
+            margin-bottom: 0.5rem;
         }
         
         @media (max-width: 768px) {
-            .gallery {
-                grid-template-columns: 1fr;
+            header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .feed {
                 padding: 1rem;
             }
             
-            .header h1 {
-                font-size: 2rem;
+            .post {
+                margin-bottom: 2rem;
             }
         }
     </style>
 </head>
 <body>
-    <header class="header">
-        <h1>My Personal Design Curator</h1>
-        <p>World-class inspiration tailored to your aesthetic taste</p>
-        <div class="last-updated">Last updated: April 01, 2026 at 05:13 PM</div>
+    <header>
+        <h1>My Design Inspiration</h1>
+        <p>Daily curated visuals from the world's best design sources</p>
+        <div class="last-updated">Last refreshed: April 01, 2026 at 07:23 PM</div>
     </header>
     
-    <div class="preferences-panel">
-        <h3>Your Curated Preferences</h3>
-        
-        <div class="pref-section">
-            <h4>Aesthetic Taste</h4>
-            <div class="pref-items">
-                <span class="pref-item">tactile textures</span><span class="pref-item">film photography</span><span class="pref-item">bold typography</span><span class="pref-item">minimalist</span><span class="pref-item">organic forms</span>
-            </div>
-        </div>
-        
-        <div class="pref-section">
-            <h4>Color Palettes</h4>
-            <div class="pref-items">
-                <span class="pref-item">neo-mint pastels</span><span class="pref-item">warm earthy tones</span><span class="pref-item">film grain vintage</span><span class="pref-item">bold contrast</span><span class="pref-item">soft gradients</span>
-            </div>
-        </div>
-        
-        <div class="pref-section">
-            <h4>Areas of Interest</h4>
-            <div class="pref-items">
-                <span class="pref-item">editorial design</span><span class="pref-item">photography</span><span class="pref-item">typography</span><span class="pref-item">brand identity</span><span class="pref-item">motion graphics</span><span class="pref-item">packaging design</span><span class="pref-item">web design</span><span class="pref-item">illustration</span>
-            </div>
-        </div>
-    </div>
-    
-    <div class="filters">
-        <button class="filter-btn active">All</button>
-        <button class="filter-btn">Photography</button>
-        <button class="filter-btn">Typography</button>
-        <button class="filter-btn">Editorial</button>
-        <button class="filter-btn">Motion</button>
-        <button class="filter-btn">Brand</button>
-        <button class="filter-btn">Web</button>
-    </div>
-    
-    <main class="gallery">
-        
-        <article class="inspiration-card">
-            <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&h=600&fit=crop" alt="Neo-Mint Editorial" class="card-image" style="width:100%;height:250px;object-fit:cover;">
-            <div class="card-content">
-                <div class="card-tags">
-                    <span class="tag aesthetic">tactile</span><span class="tag medium">editorial</span><span class="tag mood">calm</span>
+    <main class="feed">
+
+        <article class="post">
+            <img src="https://source.unsplash.com/800x600/?tactile%20textures" alt="Typography Exploration" class="post-image" loading="lazy">
+            <div class="post-content">
+                <div class="post-tags">
+                    <span class="tag type">typography</span>
+                    <span class="tag source">Behance</span>
+                    <span class="tag">motion</span>
                 </div>
-                <h3 class="card-title">Neo-Mint Editorial Layout</h3>
-                <div class="card-source">Source: <a href="https://www.itsnicethat.com" target="_blank">It's Nice That</a></div>
+                <h2 class="post-title">Typography Exploration</h2>
+                <div class="post-source">
+                    Source: <a href="https://www.behance.net" target="_blank" rel="noopener">Behance</a>
+                </div>
             </div>
-            <div class="why-curated">Matches your preference for tactile textures and editorial design</div>
+            <div class="why-curated">
+                Fits your interest in bold typography and visual hierarchy • Tactile Textures
+            </div>
         </article>
 
-        <article class="inspiration-card">
-            <img src="https://images.unsplash.com/photo-1493863641943-9b68992a8d07?w=800&h=600&fit=crop" alt="Film Grain Photography" class="card-image" style="width:100%;height:250px;object-fit:cover;">
-            <div class="card-content">
-                <div class="card-tags">
-                    <span class="tag aesthetic">film grain</span><span class="tag medium">photography</span><span class="tag mood">nostalgic</span>
+        <article class="post">
+            <img src="https://source.unsplash.com/800x600/?film%20grain%20aesthetic" alt="Editorial Design Excellence" class="post-image" loading="lazy">
+            <div class="post-content">
+                <div class="post-tags">
+                    <span class="tag type">editorial</span>
+                    <span class="tag source">It's Nice That</span>
+                    <span class="tag">illustration</span>
                 </div>
-                <h3 class="card-title">Film Grain Photography Series</h3>
-                <div class="card-source">Source: <a href="https://www.ignant.com" target="_blank">Ignant</a></div>
+                <h2 class="post-title">Editorial Design Excellence</h2>
+                <div class="post-source">
+                    Source: <a href="https://www.itsnicethat.com" target="_blank" rel="noopener">It's Nice That</a>
+                </div>
             </div>
-            <div class="why-curated">Aligns with your love for film aesthetics and nostalgic moods</div>
+            <div class="why-curated">
+                Matches your love for editorial design and tactile textures • Film Grain Aesthetic
+            </div>
         </article>
 
-        <article class="inspiration-card">
-            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=600&fit=crop" alt="Bold Typography" class="card-image" style="width:100%;height:250px;object-fit:cover;">
-            <div class="card-content">
-                <div class="card-tags">
-                    <span class="tag aesthetic">bold contrast</span><span class="tag medium">typography</span><span class="tag mood">energetic</span>
+        <article class="post">
+            <img src="https://source.unsplash.com/800x600/?minimalist%20photography" alt="Graphic Design Portfolio" class="post-image" loading="lazy">
+            <div class="post-content">
+                <div class="post-tags">
+                    <span class="tag type">graphic</span>
+                    <span class="tag source">Behance</span>
+                    <span class="tag">graphic design</span>
                 </div>
-                <h3 class="card-title">Bold Typography Poster</h3>
-                <div class="card-source">Source: <a href="https://www.behance.net" target="_blank">Behance</a></div>
+                <h2 class="post-title">Graphic Design Portfolio</h2>
+                <div class="post-source">
+                    Source: <a href="https://www.behance.net" target="_blank" rel="noopener">Behance</a>
+                </div>
             </div>
-            <div class="why-curated">Fits your interest in bold typography and energetic compositions</div>
+            <div class="why-curated">
+                Resonates with your graphic design and composition taste • Minimalist Photography
+            </div>
         </article>
 
-        <article class="inspiration-card">
-            <div class="card-image">🎨</div>
-            <div class="card-content">
-                <div class="card-tags">
-                    <span class="tag aesthetic">organic forms</span><span class="tag medium">branding</span><span class="tag mood">playful</span>
+        <article class="post">
+            <img src="https://source.unsplash.com/800x600/?organic%20forms%20design" alt="Spatial Design" class="post-image" loading="lazy">
+            <div class="post-content">
+                <div class="post-tags">
+                    <span class="tag type">architecture</span>
+                    <span class="tag source">Ignant</span>
+                    <span class="tag">architecture</span>
                 </div>
-                <h3 class="card-title">Organic Brand Identity</h3>
-                <div class="card-source">Source: <a href="#">Dribbble</a></div>
+                <h2 class="post-title">Spatial Design</h2>
+                <div class="post-source">
+                    Source: <a href="https://www.ignant.com" target="_blank" rel="noopener">Ignant</a>
+                </div>
             </div>
-            <div class="why-curated">💡 Matches your aesthetic taste for organic forms and brand design</div>
+            <div class="why-curated">
+                Connects to your spatial design and form interests • Organic Forms Design
+            </div>
         </article>
 
-        <article class="inspiration-card">
-            <div class="card-image">🎨</div>
-            <div class="card-content">
-                <div class="card-tags">
-                    <span class="tag aesthetic">warm earthy</span><span class="tag medium">packaging</span><span class="tag mood">calm</span>
+        <article class="post">
+            <img src="https://source.unsplash.com/800x600/?bold%20typography" alt="Visual Storytelling" class="post-image" loading="lazy">
+            <div class="post-content">
+                <div class="post-tags">
+                    <span class="tag type">illustration</span>
+                    <span class="tag source">It's Nice That</span>
+                    <span class="tag">photography</span>
                 </div>
-                <h3 class="card-title">Warm Earth Tones Packaging</h3>
-                <div class="card-source">Source: <a href="#">The Dieline</a></div>
+                <h2 class="post-title">Visual Storytelling</h2>
+                <div class="post-source">
+                    Source: <a href="https://www.itsnicethat.com" target="_blank" rel="noopener">It's Nice That</a>
+                </div>
             </div>
-            <div class="why-curated">💡 Aligns with your color palette preferences and packaging interest</div>
+            <div class="why-curated">
+                Fits your love for illustrative and organic forms • Bold Typography
+            </div>
         </article>
 
-        <article class="inspiration-card">
-            <div class="card-image">🎨</div>
-            <div class="card-content">
-                <div class="card-tags">
-                    <span class="tag aesthetic">soft gradients</span><span class="tag medium">web design</span><span class="tag mood">mysterious</span>
+        <article class="post">
+            <img src="https://source.unsplash.com/800x600/?editorial%20design" alt="Photography Series" class="post-image" loading="lazy">
+            <div class="post-content">
+                <div class="post-tags">
+                    <span class="tag type">photography</span>
+                    <span class="tag source">It's Nice That</span>
+                    <span class="tag">illustration</span>
                 </div>
-                <h3 class="card-title">Soft Gradient Web Design</h3>
-                <div class="card-source">Source: <a href="#">Awwwards</a></div>
+                <h2 class="post-title">Photography Series</h2>
+                <div class="post-source">
+                    Source: <a href="https://www.itsnicethat.com" target="_blank" rel="noopener">It's Nice That</a>
+                </div>
             </div>
-            <div class="why-curated">💡 Matches your taste for soft gradients and web design</div>
+            <div class="why-curated">
+                Aligns with your film photography aesthetic preferences • Editorial Design
+            </div>
         </article>
+
+        <article class="post">
+            <img src="https://source.unsplash.com/800x600/?neo%20mint%20color%20palette" alt="Photography Series" class="post-image" loading="lazy">
+            <div class="post-content">
+                <div class="post-tags">
+                    <span class="tag type">photography</span>
+                    <span class="tag source">It's Nice That</span>
+                    <span class="tag">editorial</span>
+                </div>
+                <h2 class="post-title">Photography Series</h2>
+                <div class="post-source">
+                    Source: <a href="https://www.itsnicethat.com" target="_blank" rel="noopener">It's Nice That</a>
+                </div>
+            </div>
+            <div class="why-curated">
+                Aligns with your film photography aesthetic preferences • Neo Mint Color Palette
+            </div>
+        </article>
+
+        <article class="post">
+            <img src="https://source.unsplash.com/800x600/?warm%20earthy%20tones" alt="Editorial Design Excellence" class="post-image" loading="lazy">
+            <div class="post-content">
+                <div class="post-tags">
+                    <span class="tag type">editorial</span>
+                    <span class="tag source">It's Nice That</span>
+                    <span class="tag">photography</span>
+                </div>
+                <h2 class="post-title">Editorial Design Excellence</h2>
+                <div class="post-source">
+                    Source: <a href="https://www.itsnicethat.com" target="_blank" rel="noopener">It's Nice That</a>
+                </div>
+            </div>
+            <div class="why-curated">
+                Matches your love for editorial design and tactile textures • Warm Earthy Tones
+            </div>
+        </article>
+
     </main>
     
-    <footer class="footer">
-        <p>Curated with ❤️ for your aesthetic journey</p>
-        <p>Sources: It's Nice That, Muzli, Ignant, Behance, Dribbble, Awwwards, Fubiz, Colossal</p>
+    <footer>
+        <p>Curated daily from It's Nice That, Muzli, Ignant, Behance, Awwwards, Fubiz</p>
+        <p>Personal inspiration hub • Updated every 24 hours</p>
     </footer>
-    
-    <script>
-        // Simple filter functionality
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-            btn.addEventListener('click', function() {
-                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-                this.classList.add('active');
-            });
-        });
-    </script>
 </body>
 </html>
