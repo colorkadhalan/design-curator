@@ -1,0 +1,12 @@
+{
+  "name": "design-curator",
+  "version": "1.0.0",
+  "description": "Personal design inspiration hub",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["design", "inspiration", "curator", "aesthetic"],
+  "author": "colorkadhalan",
+  "license": "MIT"
+}
