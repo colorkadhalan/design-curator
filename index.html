@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Design Inspiration | Daily Curated</title>
+    <title>My Design Inspiration</title>
     <style>
         * {
             margin: 0;
@@ -12,7 +12,7 @@
         }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: #0a0a0a;
             color: #fff;
             line-height: 1.6;
@@ -20,27 +20,22 @@
         
         header {
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-            padding: 4rem 2rem;
+            padding: 3rem 2rem;
             text-align: center;
             border-bottom: 1px solid #333;
         }
         
         header h1 {
-            font-size: 3.5rem;
+            font-size: 3rem;
             font-weight: 300;
-            letter-spacing: -0.03em;
             margin-bottom: 0.5rem;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-clip: text;
         }
         
         header p {
             color: #888;
-            font-size: 1.2rem;
-            max-width: 600px;
-            margin: 0 auto;
         }
         
         .last-updated {
@@ -50,278 +45,132 @@
         }
         
         .feed {
-            max-width: 800px;
+            max-width: 700px;
             margin: 0 auto;
             padding: 2rem;
         }
         
         .post {
             background: #1a1a1a;
-            border-radius: 16px;
+            border-radius: 12px;
             overflow: hidden;
-            margin-bottom: 3rem;
+            margin-bottom: 2rem;
             border: 1px solid #2a2a2a;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         
-        .post:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
-        }
-        
-        .post-image {
+        .post img {
             width: 100%;
+            height: auto;
             display: block;
             background: #2a2a2a;
+            min-height: 400px;
+            object-fit: cover;
         }
         
         .post-content {
             padding: 1.5rem;
         }
         
-        .post-tags {
-            display: flex;
-            gap: 0.5rem;
-            margin-bottom: 1rem;
-            flex-wrap: wrap;
-        }
-        
-        .tag {
-            background: #2d2d2d;
-            color: #aaa;
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-        
-        .tag.type {
-            background: #2d4a3e;
-            color: #7dd3c0;
-        }
-        
-        .tag.source {
-            background: #3d2d4a;
-            color: #d37dd3;
-        }
-        
         .post-title {
-            font-size: 1.4rem;
-            font-weight: 500;
-            margin-bottom: 0.75rem;
-            color: #fff;
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
         }
         
         .post-source {
             color: #888;
-            font-size: 0.95rem;
-            margin-bottom: 1rem;
         }
         
         .post-source a {
             color: #667eea;
             text-decoration: none;
-            font-weight: 500;
         }
         
         .post-source a:hover {
             text-decoration: underline;
         }
         
-        .why-curated {
-            background: #111;
-            padding: 1rem 1.5rem;
-            border-top: 1px solid #2a2a2a;
-            color: #666;
-            font-size: 0.9rem;
-            font-style: italic;
-        }
-        
         footer {
             text-align: center;
-            padding: 3rem 2rem;
+            padding: 2rem;
             border-top: 1px solid #2a2a2a;
             color: #666;
-        }
-        
-        footer p {
-            margin-bottom: 0.5rem;
-        }
-        
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2.5rem;
-            }
-            
-            .feed {
-                padding: 1rem;
-            }
-            
-            .post {
-                margin-bottom: 2rem;
-            }
         }
     </style>
 </head>
 <body>
     <header>
         <h1>My Design Inspiration</h1>
-        <p>Daily curated visuals from the world's best design sources</p>
-        <div class="last-updated">Last refreshed: April 01, 2026 at 07:23 PM</div>
+        <p>Daily curated visuals</p>
+        <div class="last-updated">April 01, 2026</div>
     </header>
     
     <main class="feed">
-
+        
         <article class="post">
-            <img src="https://source.unsplash.com/800x600/?tactile%20textures" alt="Typography Exploration" class="post-image" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80" alt="Typography Design" loading="lazy">
             <div class="post-content">
-                <div class="post-tags">
-                    <span class="tag type">typography</span>
-                    <span class="tag source">Behance</span>
-                    <span class="tag">motion</span>
-                </div>
-                <h2 class="post-title">Typography Exploration</h2>
+                <h2 class="post-title">Bold Typography Exploration</h2>
                 <div class="post-source">
-                    Source: <a href="https://www.behance.net" target="_blank" rel="noopener">Behance</a>
+                    Source: <a href="https://www.behance.net/search/projects/typography%20design" target="_blank">Behance - Typography</a>
                 </div>
-            </div>
-            <div class="why-curated">
-                Fits your interest in bold typography and visual hierarchy • Tactile Textures
             </div>
         </article>
 
         <article class="post">
-            <img src="https://source.unsplash.com/800x600/?film%20grain%20aesthetic" alt="Editorial Design Excellence" class="post-image" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&q=80" alt="Editorial Design" loading="lazy">
             <div class="post-content">
-                <div class="post-tags">
-                    <span class="tag type">editorial</span>
-                    <span class="tag source">It's Nice That</span>
-                    <span class="tag">illustration</span>
-                </div>
-                <h2 class="post-title">Editorial Design Excellence</h2>
+                <h2 class="post-title">Editorial Layout Design</h2>
                 <div class="post-source">
-                    Source: <a href="https://www.itsnicethat.com" target="_blank" rel="noopener">It's Nice That</a>
+                    Source: <a href="https://www.itsnicethat.com/search?q=editorial" target="_blank">It's Nice That - Editorial</a>
                 </div>
-            </div>
-            <div class="why-curated">
-                Matches your love for editorial design and tactile textures • Film Grain Aesthetic
             </div>
         </article>
 
         <article class="post">
-            <img src="https://source.unsplash.com/800x600/?minimalist%20photography" alt="Graphic Design Portfolio" class="post-image" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1493863641943-9b68992a8d07?w=800&q=80" alt="Photography" loading="lazy">
             <div class="post-content">
-                <div class="post-tags">
-                    <span class="tag type">graphic</span>
-                    <span class="tag source">Behance</span>
-                    <span class="tag">graphic design</span>
-                </div>
-                <h2 class="post-title">Graphic Design Portfolio</h2>
+                <h2 class="post-title">Film Photography Series</h2>
                 <div class="post-source">
-                    Source: <a href="https://www.behance.net" target="_blank" rel="noopener">Behance</a>
+                    Source: <a href="https://www.ignant.com/category/photography/" target="_blank">Ignant - Photography</a>
                 </div>
-            </div>
-            <div class="why-curated">
-                Resonates with your graphic design and composition taste • Minimalist Photography
             </div>
         </article>
 
         <article class="post">
-            <img src="https://source.unsplash.com/800x600/?organic%20forms%20design" alt="Spatial Design" class="post-image" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?w=800&q=80" alt="Web Design" loading="lazy">
             <div class="post-content">
-                <div class="post-tags">
-                    <span class="tag type">architecture</span>
-                    <span class="tag source">Ignant</span>
-                    <span class="tag">architecture</span>
-                </div>
-                <h2 class="post-title">Spatial Design</h2>
+                <h2 class="post-title">Web Design Inspiration</h2>
                 <div class="post-source">
-                    Source: <a href="https://www.ignant.com" target="_blank" rel="noopener">Ignant</a>
+                    Source: <a href="https://www.awwwards.com/websites/" target="_blank">Awwwards - Websites</a>
                 </div>
-            </div>
-            <div class="why-curated">
-                Connects to your spatial design and form interests • Organic Forms Design
             </div>
         </article>
 
         <article class="post">
-            <img src="https://source.unsplash.com/800x600/?bold%20typography" alt="Visual Storytelling" class="post-image" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1600607686527-6fb886090705?w=800&q=80" alt="Brand Identity" loading="lazy">
             <div class="post-content">
-                <div class="post-tags">
-                    <span class="tag type">illustration</span>
-                    <span class="tag source">It's Nice That</span>
-                    <span class="tag">photography</span>
-                </div>
-                <h2 class="post-title">Visual Storytelling</h2>
+                <h2 class="post-title">Brand Identity Design</h2>
                 <div class="post-source">
-                    Source: <a href="https://www.itsnicethat.com" target="_blank" rel="noopener">It's Nice That</a>
+                    Source: <a href="https://www.behance.net/search/projects/branding" target="_blank">Behance - Branding</a>
                 </div>
-            </div>
-            <div class="why-curated">
-                Fits your love for illustrative and organic forms • Bold Typography
             </div>
         </article>
 
         <article class="post">
-            <img src="https://source.unsplash.com/800x600/?editorial%20design" alt="Photography Series" class="post-image" loading="lazy">
+            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80" alt="Minimal Design" loading="lazy">
             <div class="post-content">
-                <div class="post-tags">
-                    <span class="tag type">photography</span>
-                    <span class="tag source">It's Nice That</span>
-                    <span class="tag">illustration</span>
-                </div>
-                <h2 class="post-title">Photography Series</h2>
+                <h2 class="post-title">Minimalist Design</h2>
                 <div class="post-source">
-                    Source: <a href="https://www.itsnicethat.com" target="_blank" rel="noopener">It's Nice That</a>
+                    Source: <a href="https://muz.li/" target="_blank">Muzli Inspiration</a>
                 </div>
-            </div>
-            <div class="why-curated">
-                Aligns with your film photography aesthetic preferences • Editorial Design
-            </div>
-        </article>
-
-        <article class="post">
-            <img src="https://source.unsplash.com/800x600/?neo%20mint%20color%20palette" alt="Photography Series" class="post-image" loading="lazy">
-            <div class="post-content">
-                <div class="post-tags">
-                    <span class="tag type">photography</span>
-                    <span class="tag source">It's Nice That</span>
-                    <span class="tag">editorial</span>
-                </div>
-                <h2 class="post-title">Photography Series</h2>
-                <div class="post-source">
-                    Source: <a href="https://www.itsnicethat.com" target="_blank" rel="noopener">It's Nice That</a>
-                </div>
-            </div>
-            <div class="why-curated">
-                Aligns with your film photography aesthetic preferences • Neo Mint Color Palette
-            </div>
-        </article>
-
-        <article class="post">
-            <img src="https://source.unsplash.com/800x600/?warm%20earthy%20tones" alt="Editorial Design Excellence" class="post-image" loading="lazy">
-            <div class="post-content">
-                <div class="post-tags">
-                    <span class="tag type">editorial</span>
-                    <span class="tag source">It's Nice That</span>
-                    <span class="tag">photography</span>
-                </div>
-                <h2 class="post-title">Editorial Design Excellence</h2>
-                <div class="post-source">
-                    Source: <a href="https://www.itsnicethat.com" target="_blank" rel="noopener">It's Nice That</a>
-                </div>
-            </div>
-            <div class="why-curated">
-                Matches your love for editorial design and tactile textures • Warm Earthy Tones
             </div>
         </article>
 
     </main>
     
     <footer>
-        <p>Curated daily from It's Nice That, Muzli, Ignant, Behance, Awwwards, Fubiz</p>
-        <p>Personal inspiration hub • Updated every 24 hours</p>
+        <p>Personal inspiration collection</p>
+        <p>Sources: Behance, It's Nice That, Ignant, Awwwards, Muzli</p>
     </footer>
 </body>
 </html>
