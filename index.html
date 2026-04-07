@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curated Design Inspiration</title>
+    <title>My Design Inspiration | Daily Curated</title>
     <style>
         * {
             margin: 0;
@@ -12,7 +12,7 @@
         }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             background: #0a0a0a;
             color: #fff;
             line-height: 1.6;
@@ -28,21 +28,22 @@
         header h1 {
             font-size: 3.5rem;
             font-weight: 300;
-            letter-spacing: -0.02em;
+            letter-spacing: -0.03em;
             margin-bottom: 0.5rem;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
         
         header p {
             color: #888;
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             max-width: 600px;
             margin: 0 auto;
         }
         
-        .date {
+        .last-updated {
             color: #666;
             font-size: 0.9rem;
             margin-top: 1rem;
@@ -51,81 +52,90 @@
         .feed {
             max-width: 800px;
             margin: 0 auto;
-            padding: 3rem 2rem;
+            padding: 2rem;
         }
         
         .post {
-            background: #151515;
+            background: #1a1a1a;
             border-radius: 16px;
             overflow: hidden;
             margin-bottom: 3rem;
             border: 1px solid #2a2a2a;
-            transition: transform 0.3s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         
         .post:hover {
-            transform: translateY(-4px);
+            transform: translateY(-5px);
+            box-shadow: 0 25px 50px rgba(0,0,0,0.5);
         }
         
         .post-image {
             width: 100%;
-            height: 500px;
-            object-fit: cover;
             display: block;
-            background: #1a1a1a;
+            background: #2a2a2a;
         }
         
         .post-content {
-            padding: 2rem;
+            padding: 1.5rem;
         }
         
-        .post-category {
-            display: inline-block;
+        .post-tags {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .tag {
+            background: #2d2d2d;
+            color: #aaa;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .tag.type {
             background: #2d4a3e;
             color: #7dd3c0;
-            padding: 0.4rem 1rem;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            margin-bottom: 1rem;
+        }
+        
+        .tag.source {
+            background: #3d2d4a;
+            color: #d37dd3;
         }
         
         .post-title {
-            font-size: 1.6rem;
+            font-size: 1.4rem;
             font-weight: 500;
             margin-bottom: 0.75rem;
             color: #fff;
-            line-height: 1.3;
-        }
-        
-        .post-why {
-            color: #888;
-            font-size: 1rem;
-            margin-bottom: 1.5rem;
-            font-style: italic;
         }
         
         .post-source {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            color: #666;
+            color: #888;
             font-size: 0.95rem;
+            margin-bottom: 1rem;
         }
         
         .post-source a {
             color: #667eea;
             text-decoration: none;
             font-weight: 500;
-            padding: 0.5rem 1rem;
-            background: #1a1a2a;
-            border-radius: 8px;
-            transition: background 0.2s;
         }
         
         .post-source a:hover {
-            background: #2a2a4a;
+            text-decoration: underline;
+        }
+        
+        .why-curated {
+            background: #111;
+            padding: 1rem 1.5rem;
+            border-top: 1px solid #2a2a2a;
+            color: #666;
+            font-size: 0.9rem;
+            font-style: italic;
         }
         
         footer {
@@ -144,102 +154,174 @@
                 font-size: 2.5rem;
             }
             
-            .post-image {
-                height: 350px;
+            .feed {
+                padding: 1rem;
             }
             
-            .feed {
-                padding: 2rem 1rem;
+            .post {
+                margin-bottom: 2rem;
             }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Curated Design Inspiration</h1>
-        <p>Hand-picked visuals from the world's best design sources</p>
-        <div class="date">April 01, 2026</div>
+        <h1>My Design Inspiration</h1>
+        <p>Daily curated visuals from the world's best design sources</p>
+        <div class="last-updated">Last refreshed: April 07, 2026 at 09:00 AM</div>
     </header>
     
     <main class="feed">
 
         <article class="post">
-            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Tactile Texture Exploration" class="post-image" loading="lazy">
+            <img src="https://source.unsplash.com/800x600/?tactile%20textures" alt="Contemporary Art" class="post-image" loading="lazy">
             <div class="post-content">
-                <span class="post-category">Texture</span>
-                <h2 class="post-title">Tactile Texture Exploration</h2>
-                <p class="post-why">Rich material qualities and depth</p>
-                <div class="post-source">
-                    Via <a href="https://www.itsnicethat.com/search?q=texture" target="_blank" rel="noopener">It's Nice That</a>
+                <div class="post-tags">
+                    <span class="tag type">art</span>
+                    <span class="tag source">Ignant</span>
+                    <span class="tag">architecture</span>
                 </div>
+                <h2 class="post-title">Contemporary Art</h2>
+                <div class="post-source">
+                    Source: <a href="https://www.ignant.com" target="_blank" rel="noopener">Ignant</a>
+                </div>
+            </div>
+            <div class="why-curated">
+                Aligns with your appreciation for contemporary visual art • Tactile Textures
             </div>
         </article>
 
         <article class="post">
-            <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&q=80" alt="Film Photography Aesthetic" class="post-image" loading="lazy">
+            <img src="https://source.unsplash.com/800x600/?neo%20mint%20color%20palette" alt="Design Trends" class="post-image" loading="lazy">
             <div class="post-content">
-                <span class="post-category">Photography</span>
-                <h2 class="post-title">Film Photography Aesthetic</h2>
-                <p class="post-why">Nostalgic mood with authentic grain</p>
-                <div class="post-source">
-                    Via <a href="https://www.ignant.com/category/photography/" target="_blank" rel="noopener">Ignant</a>
+                <div class="post-tags">
+                    <span class="tag type">design</span>
+                    <span class="tag source">Fubiz</span>
+                    <span class="tag">design</span>
                 </div>
+                <h2 class="post-title">Design Trends</h2>
+                <div class="post-source">
+                    Source: <a href="https://www.fubiz.net" target="_blank" rel="noopener">Fubiz</a>
+                </div>
+            </div>
+            <div class="why-curated">
+                Aligns with your overall design aesthetic preferences • Neo Mint Color Palette
             </div>
         </article>
 
         <article class="post">
-            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80" alt="Organic Form Studies" class="post-image" loading="lazy">
+            <img src="https://source.unsplash.com/800x600/?minimalist%20photography" alt="Interactive Experience" class="post-image" loading="lazy">
             <div class="post-content">
-                <span class="post-category">Illustration</span>
-                <h2 class="post-title">Organic Form Studies</h2>
-                <p class="post-why">Natural forms with contemporary execution</p>
-                <div class="post-source">
-                    Via <a href="https://www.behance.net/search/projects/organic" target="_blank" rel="noopener">Behance</a>
+                <div class="post-tags">
+                    <span class="tag type">interaction</span>
+                    <span class="tag source">Awwwards</span>
+                    <span class="tag">interaction</span>
                 </div>
+                <h2 class="post-title">Interactive Experience</h2>
+                <div class="post-source">
+                    Source: <a href="https://www.awwwards.com" target="_blank" rel="noopener">Awwwards</a>
+                </div>
+            </div>
+            <div class="why-curated">
+                Connects to your interest in interactive experiences • Minimalist Photography
             </div>
         </article>
 
         <article class="post">
-            <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80" alt="Bold Typography in Branding" class="post-image" loading="lazy">
+            <img src="https://source.unsplash.com/800x600/?organic%20forms%20design" alt="Web Design Inspiration" class="post-image" loading="lazy">
             <div class="post-content">
-                <span class="post-category">Typography</span>
-                <h2 class="post-title">Bold Typography in Branding</h2>
-                <p class="post-why">Innovative type treatments and hierarchy</p>
-                <div class="post-source">
-                    Via <a href="https://www.behance.net/search/projects/typography" target="_blank" rel="noopener">Behance</a>
+                <div class="post-tags">
+                    <span class="tag type">web</span>
+                    <span class="tag source">Muzli</span>
+                    <span class="tag">branding</span>
                 </div>
+                <h2 class="post-title">Web Design Inspiration</h2>
+                <div class="post-source">
+                    Source: <a href="https://muz.li" target="_blank" rel="noopener">Muzli</a>
+                </div>
+            </div>
+            <div class="why-curated">
+                Inspires your web design and digital aesthetic sensibilities • Organic Forms Design
             </div>
         </article>
 
         <article class="post">
-            <img src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=800&q=80" alt="Color Palette Innovation" class="post-image" loading="lazy">
+            <img src="https://source.unsplash.com/800x600/?film%20grain%20aesthetic" alt="UI Components" class="post-image" loading="lazy">
             <div class="post-content">
-                <span class="post-category">Color</span>
-                <h2 class="post-title">Color Palette Innovation</h2>
-                <p class="post-why">Bold yet harmonious color relationships</p>
-                <div class="post-source">
-                    Via <a href="https://muz.li/" target="_blank" rel="noopener">Muzli</a>
+                <div class="post-tags">
+                    <span class="tag type">web</span>
+                    <span class="tag source">Muzli</span>
+                    <span class="tag">UI/UX</span>
                 </div>
+                <h2 class="post-title">UI Components</h2>
+                <div class="post-source">
+                    Source: <a href="https://muz.li" target="_blank" rel="noopener">Muzli</a>
+                </div>
+            </div>
+            <div class="why-curated">
+                Inspires your web design and digital aesthetic sensibilities • Film Grain Aesthetic
             </div>
         </article>
 
         <article class="post">
-            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80" alt="Web Design Excellence" class="post-image" loading="lazy">
+            <img src="https://source.unsplash.com/800x600/?warm%20earthy%20tones" alt="Design Trends" class="post-image" loading="lazy">
             <div class="post-content">
-                <span class="post-category">Web Design</span>
-                <h2 class="post-title">Web Design Excellence</h2>
-                <p class="post-why">Outstanding UX and visual design</p>
-                <div class="post-source">
-                    Via <a href="https://www.awwwards.com/websites/" target="_blank" rel="noopener">Awwwards</a>
+                <div class="post-tags">
+                    <span class="tag type">design</span>
+                    <span class="tag source">Fubiz</span>
+                    <span class="tag">design</span>
                 </div>
+                <h2 class="post-title">Design Trends</h2>
+                <div class="post-source">
+                    Source: <a href="https://www.fubiz.net" target="_blank" rel="noopener">Fubiz</a>
+                </div>
+            </div>
+            <div class="why-curated">
+                Aligns with your overall design aesthetic preferences • Warm Earthy Tones
+            </div>
+        </article>
+
+        <article class="post">
+            <img src="https://source.unsplash.com/800x600/?editorial%20design" alt="Visual Culture" class="post-image" loading="lazy">
+            <div class="post-content">
+                <div class="post-tags">
+                    <span class="tag type">culture</span>
+                    <span class="tag source">Fubiz</span>
+                    <span class="tag">design</span>
+                </div>
+                <h2 class="post-title">Visual Culture</h2>
+                <div class="post-source">
+                    Source: <a href="https://www.fubiz.net" target="_blank" rel="noopener">Fubiz</a>
+                </div>
+            </div>
+            <div class="why-curated">
+                Matches your visual culture and trend awareness • Editorial Design
+            </div>
+        </article>
+
+        <article class="post">
+            <img src="https://source.unsplash.com/800x600/?bold%20typography" alt="Typography Exploration" class="post-image" loading="lazy">
+            <div class="post-content">
+                <div class="post-tags">
+                    <span class="tag type">typography</span>
+                    <span class="tag source">Behance</span>
+                    <span class="tag">motion</span>
+                </div>
+                <h2 class="post-title">Typography Exploration</h2>
+                <div class="post-source">
+                    Source: <a href="https://www.behance.net" target="_blank" rel="noopener">Behance</a>
+                </div>
+            </div>
+            <div class="why-curated">
+                Fits your interest in bold typography and visual hierarchy • Bold Typography
             </div>
         </article>
 
     </main>
     
     <footer>
-        <p>Curated with intention from It's Nice That, Ignant, Behance, Awwwards, Muzli</p>
-        <p>Updated daily with fresh inspiration</p>
+        <p>Curated daily from It's Nice That, Muzli, Ignant, Behance, Awwwards, Fubiz</p>
+        <p>Personal inspiration hub • Updated every 24 hours</p>
     </footer>
 </body>
 </html>
