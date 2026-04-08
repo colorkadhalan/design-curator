@@ -1,94 +1,94 @@
 {
-  "last_updated": "2026-04-07T09:00:58.507354",
+  "last_updated": "2026-04-08T12:24:56.059639",
   "count": 8,
   "inspirations": [
     {
-      "id": "insp_20260407_0",
+      "id": "insp_20260408_0",
+      "image_url": "https://source.unsplash.com/800x600/?bold%20typography",
+      "title": "Fine Art Photography",
+      "type": "photography",
+      "source_name": "Ignant",
+      "source_url": "https://www.ignant.com",
+      "category": "photography",
+      "date_added": "2026-04-08T12:24:56.059639",
+      "why_curated": "Aligns with your film photography aesthetic preferences • Bold Typography"
+    },
+    {
+      "id": "insp_20260408_1",
+      "image_url": "https://source.unsplash.com/800x600/?film%20grain%20aesthetic",
+      "title": "Design Trends",
+      "type": "design",
+      "source_name": "Fubiz",
+      "source_url": "https://www.fubiz.net",
+      "category": "visual culture",
+      "date_added": "2026-04-08T12:24:56.059639",
+      "why_curated": "Aligns with your overall design aesthetic preferences • Film Grain Aesthetic"
+    },
+    {
+      "id": "insp_20260408_2",
+      "image_url": "https://source.unsplash.com/800x600/?warm%20earthy%20tones",
+      "title": "Creative Development",
+      "type": "creative",
+      "source_name": "Awwwards",
+      "source_url": "https://www.awwwards.com",
+      "category": "creative",
+      "date_added": "2026-04-08T12:24:56.059639",
+      "why_curated": "Inspires your creative development exploration • Warm Earthy Tones"
+    },
+    {
+      "id": "insp_20260408_3",
+      "image_url": "https://source.unsplash.com/800x600/?minimalist%20photography",
+      "title": "Typography Exploration",
+      "type": "typography",
+      "source_name": "Behance",
+      "source_url": "https://www.behance.net",
+      "category": "graphic design",
+      "date_added": "2026-04-08T12:24:56.059639",
+      "why_curated": "Fits your interest in bold typography and visual hierarchy • Minimalist Photography"
+    },
+    {
+      "id": "insp_20260408_4",
+      "image_url": "https://source.unsplash.com/800x600/?neo%20mint%20color%20palette",
+      "title": "Art Direction",
+      "type": "art",
+      "source_name": "Fubiz",
+      "source_url": "https://www.fubiz.net",
+      "category": "visual culture",
+      "date_added": "2026-04-08T12:24:56.059639",
+      "why_curated": "Aligns with your appreciation for contemporary visual art • Neo Mint Color Palette"
+    },
+    {
+      "id": "insp_20260408_5",
       "image_url": "https://source.unsplash.com/800x600/?tactile%20textures",
       "title": "Contemporary Art",
       "type": "art",
       "source_name": "Ignant",
       "source_url": "https://www.ignant.com",
-      "category": "architecture",
-      "date_added": "2026-04-07T09:00:58.507354",
+      "category": "photography",
+      "date_added": "2026-04-08T12:24:56.059639",
       "why_curated": "Aligns with your appreciation for contemporary visual art • Tactile Textures"
     },
     {
-      "id": "insp_20260407_1",
-      "image_url": "https://source.unsplash.com/800x600/?neo%20mint%20color%20palette",
-      "title": "Design Trends",
-      "type": "design",
-      "source_name": "Fubiz",
-      "source_url": "https://www.fubiz.net",
-      "category": "design",
-      "date_added": "2026-04-07T09:00:58.507354",
-      "why_curated": "Aligns with your overall design aesthetic preferences • Neo Mint Color Palette"
-    },
-    {
-      "id": "insp_20260407_2",
-      "image_url": "https://source.unsplash.com/800x600/?minimalist%20photography",
+      "id": "insp_20260408_6",
+      "image_url": "https://source.unsplash.com/800x600/?editorial%20design",
       "title": "Interactive Experience",
       "type": "interaction",
       "source_name": "Awwwards",
       "source_url": "https://www.awwwards.com",
-      "category": "interaction",
-      "date_added": "2026-04-07T09:00:58.507354",
-      "why_curated": "Connects to your interest in interactive experiences • Minimalist Photography"
+      "category": "web design",
+      "date_added": "2026-04-08T12:24:56.059639",
+      "why_curated": "Connects to your interest in interactive experiences • Editorial Design"
     },
     {
-      "id": "insp_20260407_3",
+      "id": "insp_20260408_7",
       "image_url": "https://source.unsplash.com/800x600/?organic%20forms%20design",
       "title": "Web Design Inspiration",
       "type": "web",
       "source_name": "Muzli",
       "source_url": "https://muz.li",
-      "category": "branding",
-      "date_added": "2026-04-07T09:00:58.507354",
-      "why_curated": "Inspires your web design and digital aesthetic sensibilities • Organic Forms Design"
-    },
-    {
-      "id": "insp_20260407_4",
-      "image_url": "https://source.unsplash.com/800x600/?film%20grain%20aesthetic",
-      "title": "UI Components",
-      "type": "web",
-      "source_name": "Muzli",
-      "source_url": "https://muz.li",
       "category": "UI/UX",
-      "date_added": "2026-04-07T09:00:58.507354",
-      "why_curated": "Inspires your web design and digital aesthetic sensibilities • Film Grain Aesthetic"
-    },
-    {
-      "id": "insp_20260407_5",
-      "image_url": "https://source.unsplash.com/800x600/?warm%20earthy%20tones",
-      "title": "Design Trends",
-      "type": "design",
-      "source_name": "Fubiz",
-      "source_url": "https://www.fubiz.net",
-      "category": "design",
-      "date_added": "2026-04-07T09:00:58.507354",
-      "why_curated": "Aligns with your overall design aesthetic preferences • Warm Earthy Tones"
-    },
-    {
-      "id": "insp_20260407_6",
-      "image_url": "https://source.unsplash.com/800x600/?editorial%20design",
-      "title": "Visual Culture",
-      "type": "culture",
-      "source_name": "Fubiz",
-      "source_url": "https://www.fubiz.net",
-      "category": "design",
-      "date_added": "2026-04-07T09:00:58.507354",
-      "why_curated": "Matches your visual culture and trend awareness • Editorial Design"
-    },
-    {
-      "id": "insp_20260407_7",
-      "image_url": "https://source.unsplash.com/800x600/?bold%20typography",
-      "title": "Typography Exploration",
-      "type": "typography",
-      "source_name": "Behance",
-      "source_url": "https://www.behance.net",
-      "category": "motion",
-      "date_added": "2026-04-07T09:00:58.507354",
-      "why_curated": "Fits your interest in bold typography and visual hierarchy • Bold Typography"
+      "date_added": "2026-04-08T12:24:56.059639",
+      "why_curated": "Inspires your web design and digital aesthetic sensibilities • Organic Forms Design"
     }
   ]
 }
