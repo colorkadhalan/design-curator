@@ -1,94 +1,94 @@
 {
-  "last_updated": "2026-05-02T10:01:14.147026",
+  "last_updated": "2026-05-03T11:11:09.791540",
   "count": 8,
   "inspirations": [
     {
-      "id": "insp_20260502_0",
-      "image_url": "https://source.unsplash.com/800x600/?organic%20forms%20design",
-      "title": "Art Direction",
-      "type": "art",
+      "id": "insp_20260503_0",
+      "image_url": "https://source.unsplash.com/800x600/?warm%20earthy%20tones",
+      "title": "Design Trends",
+      "type": "design",
       "source_name": "Fubiz",
       "source_url": "https://www.fubiz.net",
-      "category": "visual culture",
-      "date_added": "2026-05-02T10:01:14.147026",
-      "why_curated": "Aligns with your appreciation for contemporary visual art • Organic Forms Design"
+      "category": "design",
+      "date_added": "2026-05-03T11:11:09.791540",
+      "why_curated": "Aligns with your overall design aesthetic preferences • Warm Earthy Tones"
     },
     {
-      "id": "insp_20260502_1",
+      "id": "insp_20260503_1",
       "image_url": "https://source.unsplash.com/800x600/?editorial%20design",
-      "title": "Site of the Day",
-      "type": "web",
-      "source_name": "Awwwards",
-      "source_url": "https://www.awwwards.com",
-      "category": "creative",
-      "date_added": "2026-05-02T10:01:14.147026",
-      "why_curated": "Inspires your web design and digital aesthetic sensibilities • Editorial Design"
+      "title": "Spatial Design",
+      "type": "architecture",
+      "source_name": "Ignant",
+      "source_url": "https://www.ignant.com",
+      "category": "art",
+      "date_added": "2026-05-03T11:11:09.791540",
+      "why_curated": "Connects to your spatial design and form interests • Editorial Design"
     },
     {
-      "id": "insp_20260502_2",
+      "id": "insp_20260503_2",
       "image_url": "https://source.unsplash.com/800x600/?film%20grain%20aesthetic",
       "title": "Creative Development",
       "type": "creative",
       "source_name": "Awwwards",
       "source_url": "https://www.awwwards.com",
-      "category": "creative",
-      "date_added": "2026-05-02T10:01:14.147026",
+      "category": "web design",
+      "date_added": "2026-05-03T11:11:09.791540",
       "why_curated": "Inspires your creative development exploration • Film Grain Aesthetic"
     },
     {
-      "id": "insp_20260502_3",
+      "id": "insp_20260503_3",
       "image_url": "https://source.unsplash.com/800x600/?minimalist%20photography",
+      "title": "Photography Series",
+      "type": "photography",
+      "source_name": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com",
+      "category": "illustration",
+      "date_added": "2026-05-03T11:11:09.791540",
+      "why_curated": "Aligns with your film photography aesthetic preferences • Minimalist Photography"
+    },
+    {
+      "id": "insp_20260503_4",
+      "image_url": "https://source.unsplash.com/800x600/?tactile%20textures",
+      "title": "Typography Exploration",
+      "type": "typography",
+      "source_name": "Behance",
+      "source_url": "https://www.behance.net",
+      "category": "motion",
+      "date_added": "2026-05-03T11:11:09.791540",
+      "why_curated": "Fits your interest in bold typography and visual hierarchy • Tactile Textures"
+    },
+    {
+      "id": "insp_20260503_5",
+      "image_url": "https://source.unsplash.com/800x600/?bold%20typography",
       "title": "Editorial Design Excellence",
       "type": "editorial",
       "source_name": "It's Nice That",
       "source_url": "https://www.itsnicethat.com",
-      "category": "photography",
-      "date_added": "2026-05-02T10:01:14.147026",
-      "why_curated": "Matches your love for editorial design and tactile textures • Minimalist Photography"
+      "category": "editorial",
+      "date_added": "2026-05-03T11:11:09.791540",
+      "why_curated": "Matches your love for editorial design and tactile textures • Bold Typography"
     },
     {
-      "id": "insp_20260502_4",
+      "id": "insp_20260503_6",
       "image_url": "https://source.unsplash.com/800x600/?neo%20mint%20color%20palette",
-      "title": "Visual Storytelling",
-      "type": "illustration",
-      "source_name": "It's Nice That",
-      "source_url": "https://www.itsnicethat.com",
+      "title": "Contemporary Art",
+      "type": "art",
+      "source_name": "Ignant",
+      "source_url": "https://www.ignant.com",
       "category": "photography",
-      "date_added": "2026-05-02T10:01:14.147026",
-      "why_curated": "Fits your love for illustrative and organic forms • Neo Mint Color Palette"
+      "date_added": "2026-05-03T11:11:09.791540",
+      "why_curated": "Aligns with your appreciation for contemporary visual art • Neo Mint Color Palette"
     },
     {
-      "id": "insp_20260502_5",
-      "image_url": "https://source.unsplash.com/800x600/?tactile%20textures",
-      "title": "Brand Identity",
-      "type": "branding",
-      "source_name": "Muzli",
-      "source_url": "https://muz.li",
-      "category": "web design",
-      "date_added": "2026-05-02T10:01:14.147026",
-      "why_curated": "Connects to your brand identity design interests • Tactile Textures"
-    },
-    {
-      "id": "insp_20260502_6",
-      "image_url": "https://source.unsplash.com/800x600/?warm%20earthy%20tones",
-      "title": "Visual Culture",
-      "type": "culture",
+      "id": "insp_20260503_7",
+      "image_url": "https://source.unsplash.com/800x600/?organic%20forms%20design",
+      "title": "Art Direction",
+      "type": "art",
       "source_name": "Fubiz",
       "source_url": "https://www.fubiz.net",
-      "category": "visual culture",
-      "date_added": "2026-05-02T10:01:14.147026",
-      "why_curated": "Matches your visual culture and trend awareness • Warm Earthy Tones"
-    },
-    {
-      "id": "insp_20260502_7",
-      "image_url": "https://source.unsplash.com/800x600/?bold%20typography",
-      "title": "Interactive Experience",
-      "type": "interaction",
-      "source_name": "Awwwards",
-      "source_url": "https://www.awwwards.com",
-      "category": "interaction",
-      "date_added": "2026-05-02T10:01:14.147026",
-      "why_curated": "Connects to your interest in interactive experiences • Bold Typography"
+      "category": "design",
+      "date_added": "2026-05-03T11:11:09.791540",
+      "why_curated": "Aligns with your appreciation for contemporary visual art • Organic Forms Design"
     }
   ]
 }
