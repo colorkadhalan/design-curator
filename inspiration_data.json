@@ -1,94 +1,94 @@
 {
-  "last_updated": "2026-05-04T23:22:39.358574",
+  "last_updated": "2026-05-08T07:31:57.142154",
   "count": 8,
   "inspirations": [
     {
-      "id": "insp_20260504_0",
-      "image_url": "https://source.unsplash.com/800x600/?warm%20earthy%20tones",
-      "title": "Art Direction",
-      "type": "art",
-      "source_name": "Fubiz",
-      "source_url": "https://www.fubiz.net",
-      "category": "art",
-      "date_added": "2026-05-04T23:22:39.358574",
-      "why_curated": "Aligns with your appreciation for contemporary visual art • Warm Earthy Tones"
-    },
-    {
-      "id": "insp_20260504_1",
-      "image_url": "https://source.unsplash.com/800x600/?film%20grain%20aesthetic",
-      "title": "Contemporary Art",
-      "type": "art",
+      "id": "insp_20260508_0",
+      "image_url": "https://source.unsplash.com/800x600/?minimalist%20photography",
+      "title": "Fine Art Photography",
+      "type": "photography",
       "source_name": "Ignant",
       "source_url": "https://www.ignant.com",
       "category": "photography",
-      "date_added": "2026-05-04T23:22:39.358574",
-      "why_curated": "Aligns with your appreciation for contemporary visual art • Film Grain Aesthetic"
+      "date_added": "2026-05-08T07:31:57.142154",
+      "why_curated": "Aligns with your film photography aesthetic preferences • Minimalist Photography"
     },
     {
-      "id": "insp_20260504_2",
-      "image_url": "https://source.unsplash.com/800x600/?organic%20forms%20design",
-      "title": "Spatial Design",
-      "type": "architecture",
-      "source_name": "Ignant",
-      "source_url": "https://www.ignant.com",
-      "category": "art",
-      "date_added": "2026-05-04T23:22:39.358574",
-      "why_curated": "Connects to your spatial design and form interests • Organic Forms Design"
-    },
-    {
-      "id": "insp_20260504_3",
-      "image_url": "https://source.unsplash.com/800x600/?tactile%20textures",
-      "title": "Visual Storytelling",
-      "type": "illustration",
-      "source_name": "It's Nice That",
-      "source_url": "https://www.itsnicethat.com",
-      "category": "illustration",
-      "date_added": "2026-05-04T23:22:39.358574",
-      "why_curated": "Fits your love for illustrative and organic forms • Tactile Textures"
-    },
-    {
-      "id": "insp_20260504_4",
-      "image_url": "https://source.unsplash.com/800x600/?neo%20mint%20color%20palette",
-      "title": "Motion Graphics",
-      "type": "motion",
-      "source_name": "Behance",
-      "source_url": "https://www.behance.net",
-      "category": "typography",
-      "date_added": "2026-05-04T23:22:39.358574",
-      "why_curated": "Matches your interest in motion graphics and animation • Neo Mint Color Palette"
-    },
-    {
-      "id": "insp_20260504_5",
+      "id": "insp_20260508_1",
       "image_url": "https://source.unsplash.com/800x600/?bold%20typography",
       "title": "Spatial Design",
       "type": "architecture",
       "source_name": "Ignant",
       "source_url": "https://www.ignant.com",
       "category": "photography",
-      "date_added": "2026-05-04T23:22:39.358574",
+      "date_added": "2026-05-08T07:31:57.142154",
       "why_curated": "Connects to your spatial design and form interests • Bold Typography"
     },
     {
-      "id": "insp_20260504_6",
+      "id": "insp_20260508_2",
       "image_url": "https://source.unsplash.com/800x600/?editorial%20design",
-      "title": "UI Components",
+      "title": "Editorial Design Excellence",
+      "type": "editorial",
+      "source_name": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com",
+      "category": "illustration",
+      "date_added": "2026-05-08T07:31:57.142154",
+      "why_curated": "Matches your love for editorial design and tactile textures • Editorial Design"
+    },
+    {
+      "id": "insp_20260508_3",
+      "image_url": "https://source.unsplash.com/800x600/?neo%20mint%20color%20palette",
+      "title": "Photography Series",
+      "type": "photography",
+      "source_name": "It's Nice That",
+      "source_url": "https://www.itsnicethat.com",
+      "category": "photography",
+      "date_added": "2026-05-08T07:31:57.142154",
+      "why_curated": "Aligns with your film photography aesthetic preferences • Neo Mint Color Palette"
+    },
+    {
+      "id": "insp_20260508_4",
+      "image_url": "https://source.unsplash.com/800x600/?organic%20forms%20design",
+      "title": "Typography Exploration",
+      "type": "typography",
+      "source_name": "Behance",
+      "source_url": "https://www.behance.net",
+      "category": "typography",
+      "date_added": "2026-05-08T07:31:57.142154",
+      "why_curated": "Fits your interest in bold typography and visual hierarchy • Organic Forms Design"
+    },
+    {
+      "id": "insp_20260508_5",
+      "image_url": "https://source.unsplash.com/800x600/?tactile%20textures",
+      "title": "Web Design Inspiration",
       "type": "web",
       "source_name": "Muzli",
       "source_url": "https://muz.li",
-      "category": "UI/UX",
-      "date_added": "2026-05-04T23:22:39.358574",
-      "why_curated": "Inspires your web design and digital aesthetic sensibilities • Editorial Design"
+      "category": "web design",
+      "date_added": "2026-05-08T07:31:57.142154",
+      "why_curated": "Inspires your web design and digital aesthetic sensibilities • Tactile Textures"
     },
     {
-      "id": "insp_20260504_7",
-      "image_url": "https://source.unsplash.com/800x600/?minimalist%20photography",
+      "id": "insp_20260508_6",
+      "image_url": "https://source.unsplash.com/800x600/?warm%20earthy%20tones",
       "title": "Site of the Day",
       "type": "web",
       "source_name": "Awwwards",
       "source_url": "https://www.awwwards.com",
-      "category": "creative",
-      "date_added": "2026-05-04T23:22:39.358574",
-      "why_curated": "Inspires your web design and digital aesthetic sensibilities • Minimalist Photography"
+      "category": "web design",
+      "date_added": "2026-05-08T07:31:57.142154",
+      "why_curated": "Inspires your web design and digital aesthetic sensibilities • Warm Earthy Tones"
+    },
+    {
+      "id": "insp_20260508_7",
+      "image_url": "https://source.unsplash.com/800x600/?film%20grain%20aesthetic",
+      "title": "Fine Art Photography",
+      "type": "photography",
+      "source_name": "Ignant",
+      "source_url": "https://www.ignant.com",
+      "category": "architecture",
+      "date_added": "2026-05-08T07:31:57.142154",
+      "why_curated": "Aligns with your film photography aesthetic preferences • Film Grain Aesthetic"
     }
   ]
 }
