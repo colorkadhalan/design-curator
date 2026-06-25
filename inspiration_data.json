@@ -1,94 +1,94 @@
 {
-  "last_updated": "2026-06-04T14:58:30.682701",
+  "last_updated": "2026-06-25T16:43:59.539425",
   "count": 8,
   "inspirations": [
     {
-      "id": "insp_20260604_0",
-      "image_url": "https://source.unsplash.com/800x600/?bold%20typography",
-      "title": "Design Trends",
-      "type": "design",
-      "source_name": "Fubiz",
-      "source_url": "https://www.fubiz.net",
-      "category": "art",
-      "date_added": "2026-06-04T14:58:30.682701",
-      "why_curated": "Aligns with your overall design aesthetic preferences • Bold Typography"
+      "id": "insp_20260625_0",
+      "image_url": "https://source.unsplash.com/800x600/?warm%20earthy%20tones",
+      "title": "Creative Development",
+      "type": "creative",
+      "source_name": "Awwwards",
+      "source_url": "https://www.awwwards.com",
+      "category": "web design",
+      "date_added": "2026-06-25T16:43:59.539425",
+      "why_curated": "Inspires your creative development exploration • Warm Earthy Tones"
     },
     {
-      "id": "insp_20260604_1",
+      "id": "insp_20260625_1",
+      "image_url": "https://source.unsplash.com/800x600/?minimalist%20photography",
+      "title": "Motion Graphics",
+      "type": "motion",
+      "source_name": "Behance",
+      "source_url": "https://www.behance.net",
+      "category": "typography",
+      "date_added": "2026-06-25T16:43:59.539425",
+      "why_curated": "Matches your interest in motion graphics and animation • Minimalist Photography"
+    },
+    {
+      "id": "insp_20260625_2",
+      "image_url": "https://source.unsplash.com/800x600/?bold%20typography",
+      "title": "Graphic Design Portfolio",
+      "type": "graphic",
+      "source_name": "Behance",
+      "source_url": "https://www.behance.net",
+      "category": "typography",
+      "date_added": "2026-06-25T16:43:59.539425",
+      "why_curated": "Resonates with your graphic design and composition taste • Bold Typography"
+    },
+    {
+      "id": "insp_20260625_3",
       "image_url": "https://source.unsplash.com/800x600/?film%20grain%20aesthetic",
-      "title": "Typography Exploration",
-      "type": "typography",
+      "title": "Motion Graphics",
+      "type": "motion",
       "source_name": "Behance",
       "source_url": "https://www.behance.net",
       "category": "motion",
-      "date_added": "2026-06-04T14:58:30.682701",
-      "why_curated": "Fits your interest in bold typography and visual hierarchy • Film Grain Aesthetic"
+      "date_added": "2026-06-25T16:43:59.539425",
+      "why_curated": "Matches your interest in motion graphics and animation • Film Grain Aesthetic"
     },
     {
-      "id": "insp_20260604_2",
-      "image_url": "https://source.unsplash.com/800x600/?editorial%20design",
-      "title": "Visual Storytelling",
-      "type": "illustration",
+      "id": "insp_20260625_4",
+      "image_url": "https://source.unsplash.com/800x600/?tactile%20textures",
+      "title": "Photography Series",
+      "type": "photography",
       "source_name": "It's Nice That",
       "source_url": "https://www.itsnicethat.com",
       "category": "photography",
-      "date_added": "2026-06-04T14:58:30.682701",
-      "why_curated": "Fits your love for illustrative and organic forms • Editorial Design"
+      "date_added": "2026-06-25T16:43:59.539425",
+      "why_curated": "Aligns with your film photography aesthetic preferences • Tactile Textures"
     },
     {
-      "id": "insp_20260604_3",
+      "id": "insp_20260625_5",
+      "image_url": "https://source.unsplash.com/800x600/?editorial%20design",
+      "title": "Interactive Experience",
+      "type": "interaction",
+      "source_name": "Awwwards",
+      "source_url": "https://www.awwwards.com",
+      "category": "creative",
+      "date_added": "2026-06-25T16:43:59.539425",
+      "why_curated": "Connects to your interest in interactive experiences • Editorial Design"
+    },
+    {
+      "id": "insp_20260625_6",
       "image_url": "https://source.unsplash.com/800x600/?neo%20mint%20color%20palette",
-      "title": "Visual Culture",
-      "type": "culture",
-      "source_name": "Fubiz",
-      "source_url": "https://www.fubiz.net",
-      "category": "art",
-      "date_added": "2026-06-04T14:58:30.682701",
-      "why_curated": "Matches your visual culture and trend awareness • Neo Mint Color Palette"
+      "title": "Graphic Design Portfolio",
+      "type": "graphic",
+      "source_name": "Behance",
+      "source_url": "https://www.behance.net",
+      "category": "motion",
+      "date_added": "2026-06-25T16:43:59.539425",
+      "why_curated": "Resonates with your graphic design and composition taste • Neo Mint Color Palette"
     },
     {
-      "id": "insp_20260604_4",
-      "image_url": "https://source.unsplash.com/800x600/?minimalist%20photography",
-      "title": "UI Components",
-      "type": "web",
-      "source_name": "Muzli",
-      "source_url": "https://muz.li",
-      "category": "web design",
-      "date_added": "2026-06-04T14:58:30.682701",
-      "why_curated": "Inspires your web design and digital aesthetic sensibilities • Minimalist Photography"
-    },
-    {
-      "id": "insp_20260604_5",
+      "id": "insp_20260625_7",
       "image_url": "https://source.unsplash.com/800x600/?organic%20forms%20design",
-      "title": "Spatial Design",
-      "type": "architecture",
-      "source_name": "Ignant",
-      "source_url": "https://www.ignant.com",
-      "category": "photography",
-      "date_added": "2026-06-04T14:58:30.682701",
-      "why_curated": "Connects to your spatial design and form interests • Organic Forms Design"
-    },
-    {
-      "id": "insp_20260604_6",
-      "image_url": "https://source.unsplash.com/800x600/?warm%20earthy%20tones",
-      "title": "Art Direction",
-      "type": "art",
-      "source_name": "Fubiz",
-      "source_url": "https://www.fubiz.net",
-      "category": "art",
-      "date_added": "2026-06-04T14:58:30.682701",
-      "why_curated": "Aligns with your appreciation for contemporary visual art • Warm Earthy Tones"
-    },
-    {
-      "id": "insp_20260604_7",
-      "image_url": "https://source.unsplash.com/800x600/?tactile%20textures",
-      "title": "Web Design Inspiration",
-      "type": "web",
-      "source_name": "Muzli",
-      "source_url": "https://muz.li",
+      "title": "Creative Development",
+      "type": "creative",
+      "source_name": "Awwwards",
+      "source_url": "https://www.awwwards.com",
       "category": "web design",
-      "date_added": "2026-06-04T14:58:30.682701",
-      "why_curated": "Inspires your web design and digital aesthetic sensibilities • Tactile Textures"
+      "date_added": "2026-06-25T16:43:59.539425",
+      "why_curated": "Inspires your creative development exploration • Organic Forms Design"
     }
   ]
 }
